@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Div Class</title>
+    <style>
+        .header {
+            background-color:#90EE90;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            border-bottom: 5px solid red; /* Garis merah sebagai pembatas */
+        }
+        .content {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .button-link {
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button-link:hover {
+            background-color: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <img src="KAFFA.png" alt="Logo Kaffa" width="50" height="50" style="margin-right: 0px;margin bottom: 0px;">
+    <h1>Kaffa .id</h1>
+        
+</div>
+    <div class="content">
+      <h2>Selamat Datang Walisantri</h2>
+        <button id="tatibButton" class="button-link">Pergi Ke Tatib Izin</button>
+    <script>
+        document.getElementById("tatibButton").addEventListener("click", function() {
+            window.location.href = "Tatib Izin.html"; // Ganti dengan URL tujuan
+        });
+    </script>
+    </div>
+    <div class="footer">
+        <p>Hak Cipta &copy; m@l1k2025</p>
+</div>
+</body>
+</html>
